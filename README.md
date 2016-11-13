@@ -1,0 +1,2 @@
+# slideshow
+Simple manual slideshow

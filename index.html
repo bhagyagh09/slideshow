@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>slideShow</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+		<div class="main">
+			<div class="slides">
+				<img src="images/img1.jpg">
+				<div class="rubric">John Day Fossil Beds</div>
+			</div>
+			<div class="slides">
+				<img src="images/img2.jpg">
+				<div class="rubric">Mount Shasta Volcano</div>
+			</div>
+			<div class="slides">
+				<img src="images/img3.jpg">
+				<div class="rubric">Pier 39 San Francisco</div>
+			</div>
+			<div class="slides">
+				<img src="images/img4.jpg">
+				<div class="rubric">Shenandoah Valley</div>
+			</div>
+
+			<a class="previous" onClick="arrowShow(-1)">&lt;</a>
+			<a class="next" onClick="arrowShow(1)">&gt;</a>
+		</div>
+		<div class="botnSelect">
+			<span class="dot" onClick="currentSlide(1)"></span>
+			<span class="dot" onClick="currentSlide(2)"></span>
+			<span class="dot" onClick="currentSlide(3)"></span>
+			<span class="dot" onClick="currentSlide(4)"></span>
+		</div>
+		<script src="slideShow.js"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+.main {
+	max-width:1000px;
+	position: relative;
+	margin:0 auto;
+}
+.slides img {
+    max-width: 1000px;
+}
+a.previous , a.next {
+    position: absolute;
+    top: 40%;
+    width: 19px;
+    font-size: 39px;
+    padding: 10px;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+}
+a.next {
+	right: 15px;
+}
+.slides {
+	position: relative;
+}
+.rubric {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    bottom: 5px;
+    font-size: 20px;
+    padding: 3px 0;
+    background-color: rgba(204, 204, 204, 0.58);
+    font-family: cursive;
+}
+.botnSelect {
+    text-align: center;
+}
+span.dot {
+	cursor: pointer;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 15px;
+}
+span.dot.active {
+	background-color: #ccc;
+}
